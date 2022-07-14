@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/claysoil"
+    tools:context=".SoilDetection2">
+
+
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="         Description of Clay Soil"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+
+
+        ></TextView>
+
+    <TextView
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/head"
+        android:layout_marginTop="30sp"
+        android:textSize="14dp"
+        android:text="What Is The Best Fertilizer For Clay Soil?"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/body1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/body"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginRight="10sp"
+        android:lineSpacingExtra="1sp"
+        android:text="The best fertilizer for clay soil is organic material, such as manures, compost and moistened peat moss. Spread 2 inches of each material on the soil each fall and till to a depth of 12 inches. Till soil when it is slightly moist, but not soggy. Working wet clay soil will further compact it."
+        android:textSize="10dp"
+
+        ></TextView>
+
+    <TextView
+        android:id="@+id/body3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/body1"
+        android:layout_marginTop="5sp"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"
+        android:text="How can I make my clay soil more fertile?"
+        android:textSize="14dp"></TextView>
+
+    <TextView
+        android:id="@+id/body4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/body3"
+        android:layout_marginTop="5sp"
+        android:lineSpacingExtra="1sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:text="The best way to improve clay soils is to mix organic materials thoroughly with existing soil, explained Brewer. Bark, sawdust, manure, leaf mold, compost and peat moss are among the organic amendments commonly used to improve clay soil."
+        android:textSize="10dp"
+
+        ></TextView>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/body4"
+        android:layout_marginTop="40dp"
+        android:background="@color/black"
+        android:text="Back"
+        android:textColor="@color/white"
+
+        ></Button>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blacksoil"
+    tools:context=".SoilDetection1">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="         Description of Black Soil"
+        android:textSize="24dp"
+        android:textStyle="bold"
+
+
+        ></TextView>
+
+    <TextView
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/head"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginRight="10sp"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"
+        android:text="It is mainly known as black cotton soil because this soil is most suitable for the cotton crop. Along with cotton, the soil is suitable for the cultivation of crops like groundnut, wheat, tobacco, chillies, and jowar."></TextView>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/body"
+        android:layout_marginTop="100dp"
+        android:background="@color/black"
+        android:text="Back"
+        android:textColor="@color/white"
+
+        ></Button>
+
+
+</RelativeLayout>

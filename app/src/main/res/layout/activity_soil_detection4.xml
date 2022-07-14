@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loamysoil"
+    tools:context=".SoilDetection4">
+
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="         Description of Loamy Soil"
+        android:textSize="24dp"
+        android:textStyle="bold"
+
+
+        ></TextView>
+
+    <TextView
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/head"
+        android:layout_marginTop="30sp"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"
+        android:text="What is the best fertilizer for loamy soil ?"
+        android:textSize="14dp"></TextView>
+
+    <TextView
+        android:id="@+id/body1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/body"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginRight="10sp"
+        android:lineSpacingExtra="2sp"
+        android:text="No matter what imbalance your soil currently has, the key to achieving a fertile loamy soil is to amend it with organic matter. This includes garden compost; peat moss; composted horse, goat, chicken, or cow manure; dried leaves or grass clippings; or shredded tree bark."
+        android:textSize="10dp"
+
+        ></TextView>
+
+    <TextView
+        android:id="@+id/body2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/body1"
+        android:layout_marginTop="30sp"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"
+        android:text="What can I do to improve loamy soil?"
+        android:textSize="14dp"></TextView>
+
+    <TextView
+        android:id="@+id/body3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/body2"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginRight="10sp"
+        android:lineSpacingExtra="2sp"
+        android:text="Like all soils, loams can be improved and maintained by adding organic matter such as compost, mulch and manure. Applying wetting agents may also help the soil better absorb water."
+        android:textSize="10dp"
+
+        ></TextView>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/body3"
+        android:layout_marginTop="10dp"
+        android:background="@color/black"
+        android:text="Back"
+        android:textColor="@color/white"
+
+        ></Button>
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gravelsoil"
+    tools:context=".SoilDetection3">
+
+
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="         Description of Gravel Soil"
+        android:textSize="24dp"
+        android:textStyle="bold"
+
+
+        ></TextView>
+
+    <TextView
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/head"
+        android:layout_marginTop="30sp"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"
+        android:text="How can I boost fertility of a gravel soil?"
+        android:textSize="14dp"></TextView>
+
+    <TextView
+        android:id="@+id/body1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/body"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginRight="10sp"
+        android:lineSpacingExtra="2sp"
+        android:text="Nitrogen and potassium are often in short supply in light, gravelly soils. Maintain these nutrients by using about 100g per m2 of a general fertiliser, such as grow more, every spring. During the growing season, plants that are not doing well should have an extra feed of liquid fertiliser when they are watered, or a top-dressing of a nitrogen fertiliser such as nitrate of potash or sulphate of ammonia. Use about 70g per m2. Both light and heavy gravelly soils need as much organic matter as you can lay your hands on. On light soils this will help retain moisture. Use about one barrow load every 2.3m2. On gravels containing clay, it will help improve the soil’s structure, as well as boost water-holding capacity. Good sources of organic matter are garden compost, mushroom compost and manure."
+        android:textSize="10dp"
+
+        ></TextView>
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/body1"
+        android:layout_marginTop="40dp"
+        android:background="@color/black"
+        android:text="Back"
+        android:textColor="@color/white"
+
+        ></Button>
+
+</RelativeLayout>

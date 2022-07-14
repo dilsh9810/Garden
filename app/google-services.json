@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "163137777242",
+    "firebase_url": "https://gardenpro-84659-default-rtdb.firebaseio.com",
+    "project_id": "gardenpro-84659",
+    "storage_bucket": "gardenpro-84659.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163137777242:android:bf8a75df82bc157bbd3263",
+        "android_client_info": {
+          "package_name": "com.example.aquaponic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163137777242-v2taaf1f624s1eiol3178aogrd791jm8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBncPjHLXergngeUe7lnx3q-IEXqY6GlZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163137777242-v2taaf1f624s1eiol3178aogrd791jm8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163137777242:android:d73eeb9c26ea2ef2bd3263",
+        "android_client_info": {
+          "package_name": "com.example.gardenpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163137777242-v2taaf1f624s1eiol3178aogrd791jm8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBncPjHLXergngeUe7lnx3q-IEXqY6GlZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163137777242-v2taaf1f624s1eiol3178aogrd791jm8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163137777242:android:a5d4536a2e495fa2bd3263",
+        "android_client_info": {
+          "package_name": "com.example.soildetectionandwateririgationsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163137777242-v2taaf1f624s1eiol3178aogrd791jm8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBncPjHLXergngeUe7lnx3q-IEXqY6GlZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163137777242-v2taaf1f624s1eiol3178aogrd791jm8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ba"
+    android:orientation="vertical"
+    tools:context=".Crop_Instructions">
+
+    <TextView
+        android:id="@+id/TextCrop"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_background"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/vegid"
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        android:visibility="invisible"
+        app:srcCompat="@mipmap/vege_front" />
+
+    <TextView
+        android:id="@+id/insttextid"
+        android:layout_width="match_parent"
+        android:layout_height="371dp"
+        android:text="Gardening Instructions"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtfertilizer"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:text="Fertilizers"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+</LinearLayout>

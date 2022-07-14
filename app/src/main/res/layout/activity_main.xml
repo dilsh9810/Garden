@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ba"
+    android:orientation="vertical"
+    tools:context=".Plant_Suggestion">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="202dp"
+        app:srcCompat="@mipmap/plant_fornt" />
+
+    <EditText
+        android:id="@+id/edithumidity"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="@drawable/ph_level"
+        android:ems="10"
+        android:hint="Humidity"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="427dp"
+        android:layout_height="16dp"
+        tools:targetApi="ice_cream_sandwich" />
+
+    <EditText
+        android:id="@+id/tempedittxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/temperature"
+        android:ems="10"
+        android:hint="Temperature"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        tools:targetApi="ice_cream_sandwich" />
+
+    <EditText
+        android:id="@+id/soilmoisturetxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/temperature"
+        android:ems="10"
+        android:hint="Soil Moisture"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Space
+        android:layout_width="398dp"
+        android:layout_height="21dp"
+        tools:targetApi="ice_cream_sandwich" />
+
+    <EditText
+        android:id="@+id/edittxtph"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="@drawable/ph_level"
+        android:ems="10"
+        android:hint="PH Value"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        tools:targetApi="ice_cream_sandwich" />
+
+    <EditText
+        android:id="@+id/editwlevel"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="@drawable/ph_level"
+        android:ems="10"
+        android:hint="Waterlevel"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        tools:targetApi="ice_cream_sandwich" />
+
+    <EditText
+        android:id="@+id/editarealevel"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="@drawable/ph_level"
+        android:ems="10"
+        android:hint="Space"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        tools:targetApi="ice_cream_sandwich" />
+
+    <Button
+        android:id="@+id/btnpredict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/predict_button"
+        android:text="Predict"
+        android:textColor="@color/black" />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        tools:targetApi="ice_cream_sandwich" />
+
+    <TextView
+        android:id="@+id/txtresult"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
